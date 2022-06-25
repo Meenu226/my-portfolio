@@ -64,7 +64,7 @@ function typeNow() {
             deleteNow();
             return false;
         };
-        counter = setTimeout(loopTyping, 50);
+        counter = setTimeout(loopTyping, 175);
     };
     loopTyping();
 };
