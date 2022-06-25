@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Hi, I'm Meenu Tyagi. I am a young corder /who belive in smart work rather than hardwork/👨🏻‍💻 Web Developer / Love to cook " />
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" type="image/x-icon" href="./assets/img/favicon.png">
+    <title>Meenu's Portfolio</title>
+</head>
+
+<body>
+    <!-- Loader -->
+    <div id="loader">
+        <div class="loader">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+        </div>
+    </div>
+    <!-- loader ends -->
+    <section class="main">
+        <header>
+            <nav>
+                <ul class="navbar addn">
+                    <li class="logo__icon"><a href="#hero__section" class="navbar__links"><span class="navbar__logo"
+                                style="">&ltMT/&gt</span></a></li>
+                    <li><a href="#about" class="navbar__links display__none"> <span class="navbar__numbering">01.</span>About</a>
+                    </li>
+                    <li><a href="#Skills" class="navbar__links display__none"><span class="navbar__numbering">02.</span>Skills</a>
+                    </li>
+                    <li><a href="#work" class="navbar__links display__none"><span class="navbar__numbering">03.</span>Projects</a></li>
+                    <li><a href="#contact" class="navbar__links display__none"><span class="navbar__numbering">04.</span>Contact</a></li>
+                    <li><a href="https://drive.google.com/file/d/1x6BkF_O8aXgKhkNcl6xHKArCrtuyhiuj/view?usp=sharing"
+                            class="navbar__links navbar__resume display__none" target="_blank">Resume</a></li>
+                    <li id="hamburger" class="menu">
+                        <div class="menu__icon">
+                            <div class="menu__icon__inner"></div>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <section id="sidebar" class="sidebar__mobile">
+            <ul class="sidebar__menu">
+                <div id="close-menu" class="close-btn"> X </div>
+                <li><a href="#about"> <span class="sidebar__numbering">01.</span>
+                        About</a>
+                </li>
+                <li><a href="#skills"><span class="sidebar__numbering">02.</span>Skills</a>
+                </li>
+                <li><a href="#work"><span class="sidebar__numbering">03.</span>Projects</a>
+                </li>
+                <li><a href="#contact"><span class="sidebar__numbering">04.</span>Contact</a>
+                </li>
+                <li><a href="https://drive.google.com/file/d/1x6BkF_O8aXgKhkNcl6xHKArCrtuyhiuj/view?usp=sharing"
+                        class=" navbar__resume green__color" target="_blank">Resume</a></li>
+            </ul>
+        </section>
+        <div id="left-sidebar" class="left">
+            <ul class="styled__list">
+                <!-- TODO : Remove this class  -->
+                <li class="styled__list_left">
+                    <a href="https://github.com/Meenu226" target="_blank" rel="noopener noreferrer">
+                        <svg class="side__icons" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" role="img"
+                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" class="feather feather-github" width="24" height="24">
+                            <title>GitHub</title>
+                            <path
+                                d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
+                                stroke="#A8B2D1" fill="none" stroke-width="2px"></path>
+                        </svg>
+                    </a>
+                </li>
+                <li class="styled__list_left">
+                    <a href="https://www.linkedin.com/in/meenu-tyagi226//" target="_blank" rel="noopener noreferrer">
+                        <svg class="side__icons" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" role="img"
+                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" class="feather feather-linkedin" width="24" height="24">
+                            <title>LinkedIn</title>
+                            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"
+                                stroke="#A8B2D1" fill="none" stroke-width="2px"></path>
+                            <rect x="2" y="9" width="4" height="12" stroke="#A8B2D1" fill="none" stroke-width="2px">
+                            </rect>
+                            <circle cx="4" cy="4" r="2" stroke="#A8B2D1" fill="none" stroke-width="2px"></circle>
+                        </svg>
+                    </a>
+                </li>
+                <li class="styled__list_left">
+                    <a href="https://twitter.com/meenuty58956963" target="_blank" rel="noopener noreferrer">
+                        <svg class="side__icons" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" role="img"
+                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" class="feather feather-twitter" width="24" height="24">
+                            <title>Twitter</title>
+                            <path
+                                d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"
+                                stroke="#A8B2D1" fill="none" stroke-width="2px"></path>
+                        </svg>
+                    </a>
+                </li>
+                <!-- <li class="styled__list_left">
+                    <a href="https://www.instagram.com/himmu_51/" target="_blank" rel="noopener noreferrer">
+                        <img class="side__icons" src="./assets/img/Instagram.svg" alt="Instagram">
+                    </a>
+                </li> -->
+            </ul>
+        </div>
+        <div id="right-sidebar" class="right">
+            <a class="right-text" href="mailto:meenutyagi226@gmail.com"> <span
+                    class="orentation side__icons">meenutyagi226@gmail.com</span></a>
+        </div>
+        <section id="hero__section" class="hero__section blur-class">
+            <div class="hero__section__text">
+                <h1>
+                    Hi, my name is
+                </h1>
+                <h2 class="big__heading">
+                    Meenu Tyagi
+                </h2>
+                <h3 class="big__heading">
+                    <!-- I love to Change <span class="green__color">Web apps</span> -->
+                    <!-- I love to build Web apps -->
+                    <span id="dynamic-text" class="blink"><span id="dynamic-text-green" class="green__color"></span></span>
+                </h3>
+                <p class="p-2 w-75__text__decoration">My goal is to become a well skilled IT professionalist and give my contribution in creating new technical world
+                    <br>
+                </p>
+            </div>
+            <!-- <div>
+                <img class="profile-image" src="./assets/img/prefill.jpeg" alt="">
+            </div> -->
+        </section>
+        <section id="about" class="about__section blur-class">
+            <div class="about__heading">
+                <h5 class="">
+                    <span class="numbered">01.</span>
+                    <span class="number__heading"> <label for="">About Me</label></span>
+                    <!-- <span class="hoz__line"></span> -->
+                </h5>
+                <div class="about__me">
+                    <div class="about__me__info">
+                        <p>
+                            Hello! My name is Meenu Tyagi. I enjoy being happy and love my company.<br>
+                            I'm Persuing Master's of Computer Application  in (Artificial Intelligence and Machine learning) From<span class="green__color">Chandigarh University</span>.<br> 
+                            I have completed my Bachelor of Computer Application from <span class="green__color">Kanoria Mahila MahaVidyalaya, Jaipur.</span><br>
+                            I have completed my schooling from <span class="green__color">Kendriya Vidyalaya AAI,Rangpuri,New Delhi.</span><br>
+                            Currently I'm working on my skills of coding in some languages such as of c++,Python. I'm open to new learning opportunities.<br>
+                            <br>
+                             My interest in web development started back in 2021 When I explored various websites on internet and many Frontend Developers on github .
+                             When I create webpages I lost track of time and enjoy company with javascript 😉.<br>
+                            I am working on these technologies and always excited to learn new technologies and explore
+                            interesting problems
+                        </p>
+                        <ul class="skills-list">
+                            <li>
+                                NLP(Natural Language processing)
+                            </li>
+                            <li>
+                                Speech Recognition
+                            </li>
+                            <li>
+                                Image Recognition
+                            </li>
+                            <li>
+                               RPA
+                            </li>
+                            <li>
+                                Power BI
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="about__img">
+                        <img loading="lazy" src="./assets/img/Mypic.jpg" alt="Picture">
+                        <div class="something">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <div>
+                        <img class="profile-image" src="./assets/img/prefill.jpeg" alt="">
+                    </div> -->
+        </section>
+        <section id="experience" class="about__section blur-class">
+            <div class="about__heading">
+                <h5 class="">
+                    <span class="numbered">02.</span>
+                    <span class="number__heading"> <label for="">Skills</label></span>
+                    <!-- <span class="hoz__line"></span> -->
+                </h5>
+                <div class="about__me">
+                    <div class="sidebar__exp">
+                        <div class="active">
+                        
+                        </div>
+                    </div>
+                    <div class="details">
+                        <div class="">
+                            <div class="title__details">
+                                
+                                
+                            </div>
+                            <div class="time__details">
+                            </div>
+                        </div>
+                        <ul class="experience__detials">
+                            <p><a class="update"> "The future belongs to them who learn more skills and combine them in creative ways."</a> <br><br><br></p>
+                            <li>
+                                Python <a class="green__color" >
+                                    (Artificial Intelligence and Machine learning) </a>
+                            </li>
+                            <li>
+                                C++
+                            </li>
+                            <li>
+                                HTML
+                            </li>
+                            <li>
+                                javascript
+                            </li>
+                            <li>
+                                CSS
+                            </li>
+                           
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="work" class="about__section blur-class">
+            <div class="about__heading">
+                <h5 class="">
+                    <span class="numbered">03.</span>
+                    <span class="number__heading"> <label for="">Projects</label></span>
+                    <!-- <span class="hoz__line"></span> -->
+                </h5>
+                <div class="about__me m-2">
+                    <div class="about__me__info">
+                        <img loading="lazy" src="./assets/img/port.png" class="project__img" alt="">
+                    </div>
+                    <div>
+                        <div class="featured__project">Featured Project</div>
+                        <div class="project__name">My Portfolio</div>
+                        <div>
+                            <p class="project__description">
+                              I created my own Portfolio to Describe myself.
+                            </p>
+                            <ul class="list__stack">
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>javascript</li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="about__me m-2 second__project">
+                    <div class="about__me__info">
+                        <img loading="lazy" src="./assets/img/dassi-marketing.png" class="project__img" alt="">
+                    </div>
+                    <div class="position__project">
+                        <div class="featured__project">Featured Project</div>
+                        <div class="project__name">Smart Attendence Application</div>
+                        <div>
+                            <p class="project__description">
+                                Developed a mobile application to mark attendence of employees 
+                                in the organization automatically by using beacon for Smart India Hakathon
+                                still developing it to update more features in it.This app captures the basic 
+                                information of employee and identifies him/her through their face and also moniters the 
+                                whole duration between punch in and punch out time.
+                                
+
+                                
+                            </p>
+                            <ul class="list__stack">
+                                <li>Kotlin</li>
+                                <li>Solidity  </li>
+                                <li>Tensorflow  </li>
+                                <li>Smart Contract  </li>
+                                <li>Firebase  </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="about__me m-2">
+                    <!-- <div class="about__me__info">
+                        <img loading="lazy" src="./assets/img/stock-predictor.png" class="project__img" alt="">
+                    </div> -->
+                    <!-- <div>
+                        
+                        <div class="featured__project">Featured Project</div>
+                        <div class="project__name">Intraday Stock Price Predictor</div>
+                        <div>
+                            <p class="project__description">
+                                Classification of Weather a stock will go upward or down-ward using M.L. Using
+                                TESLA-2020 Stock of every
+                                5 minutes. Used various machine learning algorithms. SVM linear performed best with
+                                61.8% test accuracy.
+                            </p>
+                            <ul class="list__stack" style="justify-content: start;">
+                                <li>Python</li>
+                            </ul>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="about__section blur-class">
+            <div class="about__heading">
+                <h5 class="contact_header">
+                    <span class="numbered">04.</span>
+                    <span class="contact__heading"> <label for="">Contact</label></span>
+                    <div class="big__heading" style="color: var(--slate);">
+                        Get In Touch
+                    </div>
+                    <!-- <span class="hoz__line"></span> -->
+                </h5>
+                <div class="about__me">
+                    <div class="about__me__info">
+                        <p>
+                            I’m currently looking for any new opportunities, my inbox is always open. I'm passionate
+                            about problem solving and learning technologies.
+                            If you have any query or question. Please feel free to drop a message.
+                        </p>
+                    </div>
+                </div>
+                <div class="say__hello">
+                    <div>
+                        <a href="mailto:meenutyagi226@gmail.com" class="!important;">Say Hello!</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <footer>
+                <div class="footer__details">
+                    <ul class="mobile__footer">
+                        <!-- TODO : Remove this class  -->
+                        <li class="styled__list_left">
+                            <a href="https://github.com/Meenu226" target="_blank" rel="noopener noreferrer">
+                                <svg class="side__icons" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none"
+                                    stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="feather feather-github" width="24" height="24">
+                                    <title>GitHub</title>
+                                    <path
+                                        d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
+                                        stroke="#A8B2D1" fill="none" stroke-width="2px"></path>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="styled__list_left">
+                            <a href="https://www.linkedin.com/in/meenu-tyagi226/" target="_blank" rel="noopener noreferrer">
+                                <svg class="side__icons" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none"
+                                    stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="feather feather-linkedin" width="24" height="24">
+                                    <title>LinkedIn</title>
+                                    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"
+                                        stroke="#A8B2D1" fill="none" stroke-width="2px"></path>
+                                    <rect x="2" y="9" width="4" height="12" stroke="#A8B2D1" fill="none" stroke-width="2px">
+                                    </rect>
+                                    <circle cx="4" cy="4" r="2" stroke="#A8B2D1" fill="none" stroke-width="2px">
+                                    </circle>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="styled__list_left">
+                            <a href="https://twitter.com/meenuty58956963" target="_blank" rel="noopener noreferrer">
+                                <svg class="side__icons" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none"
+                                    stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="feather feather-twitter" width="24" height="24">
+                                    <title>Twitter</title>
+                                    <path
+                                        d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"
+                                        stroke="#A8B2D1" fill="none" stroke-width="2px"></path>
+                                </svg>
+                            </a>
+                        </li>
+                        <!-- <li class="styled__list_left">
+                            <a href="https://www.instagram.com/himmu_51/" target="_blank" rel="noopener noreferrer">
+                                <img class="side__icons" src="./assets/img/Instagram.svg" alt="Instagram">
+                            </a>
+                        </li> -->
+                    </ul>
+                </div>
+                <div class="footer__mention">
+                    <a href="https://github.com/Meenu226" target="_blank">Build by Meenu Tyagi</a>
+                    &nbsp; &amp;&nbsp;
+                    <a href="https://brittanychiang.com/" target="_blank">
+                        Designed by Brittany Chiang</a>
+                </div>
+            </footer>
+        </section>
+        </div>
+        <!--===== MAIN JS =====-->
+        <script src="./js/main.js"></script>
+</body>
+
+</html>
